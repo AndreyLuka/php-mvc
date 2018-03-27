@@ -1,0 +1,6 @@
+# Redirect all requests to "public" folder.
+# This is needed for servers where document root cannot be changed.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

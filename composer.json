@@ -1,0 +1,21 @@
+{
+    "name": "andreyluka/php-mvc",
+    "description": "PHP MVC Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrii Lukashenko",
+            "email": "lukaandrey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    }
+}
